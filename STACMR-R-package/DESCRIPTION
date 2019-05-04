@@ -1,0 +1,18 @@
+Package: STACMR
+Version: 0.0-1
+Title: Conjoint Monotonic Regression approach to State-Trace Analysis
+Authors@R: c(
+          person(given="John", family="Dunn", role=c("aut")),
+          person(given="Michael L.", family="Kalish", role=c("aut")),
+          person(given="Henrik", family="Singmann", role=c("cre"),
+          email="singmann+afex@gmail.com", comment=c(ORCID="0000-0002-4842-3657"))
+            )
+Description: Set of R functions that implement the Conjoint Monotonic Regression (CMR) approach to State-Trace Analysis (STA)
+Depends: R (>= 2.7.0), rJava (>= 0.5-0)
+SystemRequirements: Java (>= 1.5)
+License: GPL-3
+Imports: 
+    magic,
+    ggplot2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
